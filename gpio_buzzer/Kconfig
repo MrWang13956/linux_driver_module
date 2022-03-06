@@ -1,0 +1,7 @@
+
+config GPIO_BUZZER
+	tristate "BUZZER Support for GPIO connected BUZZER"
+	depends on GPIOLIB && PINCTRL
+	help
+	  This option enables support for the BUZZER connected to GPIO
+	  outputs.
